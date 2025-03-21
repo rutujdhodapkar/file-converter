@@ -13,4 +13,3 @@ pydub
 werkzeug
 gunicorn
 imageio_ffmpeg
-moviepy.editor
