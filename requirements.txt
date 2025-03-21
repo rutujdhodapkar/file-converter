@@ -1,0 +1,13 @@
+flask
+nbconvert
+pypandoc
+python-docx
+pdf2docx
+pillow
+pandas
+openpyxl
+markdown2
+json2html
+moviepy
+pydub
+werkzeug
