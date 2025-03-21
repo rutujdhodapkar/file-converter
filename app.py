@@ -12,7 +12,7 @@ from docx import Document
 from pdf2docx import Converter
 from PIL import Image
 from json2html import *
-from moviepy.editor import VideoFileClip
+from moviepy.video.io.VideoFileClip import VideoFileClip
 from pydub import AudioSegment
 
 app = Flask(__name__)
