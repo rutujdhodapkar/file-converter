@@ -11,3 +11,4 @@ json2html
 moviepy
 pydub
 werkzeug
+gunicorn
