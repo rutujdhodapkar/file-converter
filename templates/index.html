@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🔥 Ultimate File Converter</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <script src="{{ url_for('static', filename='js/script.js') }}" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>🚀 Ultimate File Converter</h1>
+        <form action="/convert" method="post" enctype="multipart/form-data">
+            <input type="file" name="file" required>
+            <select name="format">
+                <option value="py">IPYNB ➝ Python</option>
+                <option value="pdf">DOCX ➝ PDF</option>
+                <option value="docx">PDF ➝ DOCX</option>
+                <option value="jpg">PNG ➝ JPG</option>
+                <option value="png">JPG ➝ PNG</option>
+                <option value="wav">MP3 ➝ WAV</option>
+                <option value="mp3">WAV ➝ MP3</option>
+                <option value="gif">MP4 ➝ GIF</option>
+            </select>
+            <button type="submit">🔥 Convert</button>
+        </form>
+    </div>
+</body>
+</html>
